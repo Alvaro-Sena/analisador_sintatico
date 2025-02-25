@@ -37,19 +37,23 @@ O projeto utiliza um modelo baseado em **gramática livre de contexto (CFG)** pa
 1. Clone o repositório:  
    ```bash  
    git clone https://github.com/Alvaro-Sena/analisador_sintatico.git  
-   ```  
-2. Instale as dependências:  
+   ```
+2. Navegue até a pasta do repositório:
+   ```bash  
+   cd analisador_sintatico
+   ``` 
+3. Instale as dependências:  
    ```bash  
    pip install -r requirements.txt  
    ```  
-3. Execute o analisador:  
+4. Execute o analisador:  
    ```bash  
    python parser.py  
    ```  
 
 Em seguida, use como parametro para "Sentence:" uma frase presente na pasta sentences.
 
-Certifique-se de que possui **Python 3** instalado no seu ambiente. Além disso, é necessário instalaçao das bibliotecas de requirements.txt.
+Certifique-se de que possui **Python 3** instalado no seu ambiente.
 
 ## Contato
 Caso tenha dúvidas ou sugestões, entre em contato através do meu [LinkedIn](www.linkedin.com/in/alvaro-sena), [GitHub](https://github.com/Alvaro-Sena) ou [WhatsApp](https://wa.me/447356040385).
